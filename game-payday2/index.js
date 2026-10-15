@@ -52,7 +52,7 @@ class PAYDAY2 {
    */
   async queryPath() {
     // check Steam
-    let game = await util.steam.findByAppId('218620');
+    let game = await util.GameStoreHelper.findByAppId('218620', "steam");
     if (game)
       return game.gamePath;
 
