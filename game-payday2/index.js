@@ -25,7 +25,7 @@ class PAYDAY2 {
     this.id = GAME_ID;
     this.name = 'PAYDAY 2';
     this.logo = 'gameart.jpg';
-    this.requiredFiles = ['payday2_win32_release.exe'];
+    this.requiredFiles = ['PAYDAY2.exe'];
     this.details = {
       steamAppId: 218620
     };
